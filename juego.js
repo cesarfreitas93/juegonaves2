@@ -98,7 +98,7 @@ var Juego={
 			var bala=balas.getFirstDead();
 			bala.anchor.setTo(0.5);
 			bala.reset(nave.x,nave.y);
-			bala.rotation=juego.physics.arcade.angleToPointer(bala)+Math.pi/2;
+			bala.rotation=juego.physics.arcade.angleToPointer(bala)+Math.PI/2;
 			juego.physics.arcade.moveToPointer(bala,200);
 		}
 	},
